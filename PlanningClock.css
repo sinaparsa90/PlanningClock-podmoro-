@@ -1,0 +1,96 @@
+h1{
+    text-align: center;
+    color: rgb(236, 212, 212);
+}
+
+.MainContent{
+    color: rgb(236, 212, 212);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.bi{
+    font-size: 2em;
+}
+.bi:hover{
+    cursor: pointer;
+    transition:opacity  0.5s;
+    opacity: 80%;
+}
+
+.timingSetting{
+    display: flex;
+    gap: 3em;
+}
+
+.redTime{
+    color:red
+}
+
+.ButtonSetting{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.bi:hover{
+    cursor: pointer;
+    transition:color 0.2s;
+    color:rgb(27, 4, 49);
+}
+
+.time{
+    margin-top: 20px;
+    padding: 3vh 5vw;
+   
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(125deg,rgb(45, 11, 83),rgb(121, 77, 170) );
+    width: auto;
+    height: auto;
+    border-radius: 25px ;
+    outline: solid 5px rgb(135, 98, 177) ;
+}
+
+.time p{
+    margin: 25px;
+}
+
+.time h1{
+    font-size: 40px;
+}
+
+h3{
+    width: 2ch;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+.time p{
+    font-size: 5vh;
+}
+
+.footer{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    flex-direction: column ;
+    color: rgb(110, 51, 112);
+    font-weight: 700;
+    text-shadow: 2px 2px 5px black;
+    text-indent: 0ch;
+}
+
+.footer p{
+    margin: 2px;
+}
+
+.name{
+    color: rgb(88, 66, 105);
+}
